@@ -6,7 +6,7 @@
 <body>
 	<div class="clear">
 	<img class="image1" src="vcet logo.png" alt="vcet logo" style="width: 120px; height: 105px;">
-	<p>Vidyavardhinis college of engineering and technology</p>
+	<p style="font-size:2.5vw">Vidyavardhinis college of engineering and technology</p>
 	<hr>
 </div>
 <img class="image5" src="vcet1.webp" alt="vcet1" style="width: 1500px; height: 550px;">
@@ -36,6 +36,13 @@
 body
 {
 	background-color: pink;
+}
+@media screen and (max-width:800px)
+{
+	nav
+	{
+		 width:100%; 
+	}
 }
 </style>
 <br>
