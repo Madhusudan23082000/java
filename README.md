@@ -37,6 +37,13 @@ body
 {
 	background-color: pink;
 }
+@media screen and (max-width:800px)
+{
+	nav
+	{
+		 width:100%; 
+	}
+}
 </style>
 <br>
 <nav>
